@@ -1,4 +1,6 @@
 # HPC_notes
+[User Wiki](https://user-wiki.rosalind.kcl.ac.uk/doku.php?id=start)
+
 ## Job Scheduling
 | Queues        | Hardware description          | Time limits  |
 | ------------- |:-------------:| -----|
