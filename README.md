@@ -1,7 +1,7 @@
 # HPC_notes
 ## Job Scheduling
 | Queues        | Hardware description          | Time limits  |
-| ------------- |:-------------:| -----:|
+| ------------- |:-------------:| -----|
 | HighMemLongterm.q     | 2 x 10 core Intel Haswell E5-2660 v3 2.60GHz with 384GB RAM | Few months |
 | HighMemShortterm.q      | 2 x 10 core Intel Haswell E5-2660 v3 2.60GHz with 384GB RAM      |  7 days |
 | LowMemLongterm.q | 2 x 10 core Intel Haswell E5-2660 v3 2.60GHz with 192GB RAM     | Few months |
@@ -9,7 +9,7 @@
 | InterLowMem.q| 2 x 10 core Intel Haswell E5-2660 v3 2.60GHz with 192GB RAM | 24hours |
 
 |Parallel environments| Purpose |
-|-------------|:-------------:|
+|-------------|-------------|
 |mpislots|Used for mpi jobs with filling each node and then going to the next one.|
 |mpinodes| Used fro mpi jobs with roudrobin way. Thus putting one thread in each node.|
 |smp |Used from smp jobs, so running in a single node.|
