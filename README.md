@@ -242,7 +242,10 @@ compiled as a static, you need to add the dependencies;
 Scientific software usually comes with a testing feature called regression tests. The most
 common command for running them are:
 
-    make tests or make check
+    make tests 
+or 
+   
+    make check
 
 That’s not enough! Regression tests cover only a small proportion of the
 testing of functionality of a software. Scientific software consists of many subroutines or
